@@ -1,2 +1,31 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+
+/* Menu bar */
+  .navbar {
+    color: white;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-right: 98px;
+    background: rgb(12, 179, 248);
+}
+  .navbar-brand {
+    font-size: 16.39pt;
+}
+  .nav-item {
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+/*top container*/
+  .row-top   {
+      background: rgb(12, 179, 248);
+    }
+/*price container*/
+  .container-license {
+    background: rgb(34, 34, 34);
+}
+  .price {
+    background: white;
+    border-radius: 5px;
+}
 }

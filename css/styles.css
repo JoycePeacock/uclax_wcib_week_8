@@ -1,0 +1,23 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* Menu bar */
+  /*top container*/
+  /*price container*/ }
+  body .navbar {
+    color: white;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-right: 98px;
+    background: #0cb3f8; }
+  body .navbar-brand {
+    font-size: 16.39pt; }
+  body .nav-item {
+    font-size: 12pt;
+    text-transform: uppercase; }
+  body .row-top {
+    background: #0cb3f8; }
+  body .container-license {
+    background: #222222; }
+  body .price {
+    background: white;
+    border-radius: 5px; }
