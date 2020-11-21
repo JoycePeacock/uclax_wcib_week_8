@@ -1,31 +1,41 @@
 body {
   font-family: 'Montserrat', sans-serif;
-
+  background: rgb(12, 179, 248);
 /* Menu bar */
   .navbar {
     color: white;
     font-weight: 700;
     margin-left: 98px;
     margin-right: 98px;
-    background: rgb(12, 179, 248);
 }
   .navbar-brand {
+    color: white;
     font-size: 16.39pt;
 }
-  .nav-item {
+  .nav, a {
     font-size: 12pt;
+    color: white;
     text-transform: uppercase;
 }
 /*top container*/
-  .row-top   {
-      background: rgb(12, 179, 248);
-    }
-/*price container*/
-  .container-license {
+
+/*pricing container*/
+  .row-price {
     background: rgb(34, 34, 34);
+    color: white;
+
 }
   .price {
     background: white;
     border-radius: 5px;
-}
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-bottom: 110px;
+    color: rgb(36, 37, 38);
+    &-ul {
+    padding: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+      }
+    }
 }

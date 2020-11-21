@@ -1,23 +1,32 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #0cb3f8;
   /* Menu bar */
   /*top container*/
-  /*price container*/ }
+  /*pricing container*/ }
   body .navbar {
     color: white;
     font-weight: 700;
     margin-left: 98px;
-    margin-right: 98px;
-    background: #0cb3f8; }
+    margin-right: 98px; }
   body .navbar-brand {
+    color: white;
     font-size: 16.39pt; }
-  body .nav-item {
+  body .nav, body a {
     font-size: 12pt;
+    color: white;
     text-transform: uppercase; }
-  body .row-top {
-    background: #0cb3f8; }
-  body .container-license {
-    background: #222222; }
+  body .row-price {
+    background: #222222;
+    color: white; }
   body .price {
     background: white;
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-bottom: 110px;
+    color: #242526; }
+    body .price-ul {
+      padding: 0;
+      padding-inline-start: 0;
+      list-style-type: none; }
