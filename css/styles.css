@@ -19,6 +19,13 @@ body {
   body .row-price {
     background: #222222;
     color: white; }
+  body h2 {
+    font-size: 44pt;
+    font-weight: bold; }
+  body h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase; }
   body .price {
     background: white;
     border-radius: 5px;
@@ -29,4 +36,19 @@ body {
     body .price-ul {
       padding: 0;
       padding-inline-start: 0;
-      list-style-type: none; }
+      list-style-type: none;
+      font-size: 14pt;
+      font-weight: normal; }
+    body .price.blue {
+      background: #1b8bf9;
+      color: white; }
+    body .price-p {
+      font-size: 12pt;
+      font-weight: normal; }
+  body #amount {
+    font-size: 48pt;
+    font-weight: bold; }
+  body .sub {
+    font-size: 16pt;
+    color: #bcc6d0;
+    font-weight: lighter; }
