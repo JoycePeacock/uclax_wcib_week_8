@@ -12,7 +12,7 @@ body {
   body .navbar-brand {
     color: white;
     font-size: 16.39pt; }
-  body .nav, body a {
+  body .nav-link {
     font-size: 12pt;
     color: white;
     text-transform: uppercase; }
@@ -21,7 +21,9 @@ body {
     color: white; }
   body h2 {
     font-size: 44pt;
-    font-weight: bold; }
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 35px; }
   body h3 {
     font-size: 12pt;
     font-weight: bold;
@@ -32,23 +34,25 @@ body {
     padding-top: 30px;
     padding-bottom: 45px;
     margin-bottom: 110px;
+    margin-top: 40px;
     color: #242526; }
-    body .price-ul {
-      padding: 0;
-      padding-inline-start: 0;
-      list-style-type: none;
-      font-size: 14pt;
-      font-weight: normal; }
     body .price.blue {
       background: #1b8bf9;
       color: white; }
-    body .price-p {
-      font-size: 12pt;
-      font-weight: normal; }
+  body .price ul {
+    padding: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: normal; }
+  body .price p {
+    font-size: 12pt;
+    font-weight: normal; }
   body #amount {
     font-size: 48pt;
     font-weight: bold; }
-  body .sub {
+  body #sub {
     font-size: 16pt;
     color: #bcc6d0;
-    font-weight: lighter; }
+    font-weight: lighter;
+    padding-bottom: 40px; }

@@ -12,7 +12,7 @@ body {
     color: white;
     font-size: 16.39pt;
 }
-  .nav, a {
+  .nav-link {
     font-size: 12pt;
     color: white;
     text-transform: uppercase;
@@ -27,6 +27,8 @@ body {
 h2 {
   font-size: 44pt;
   font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 h3 {
   font-size: 12pt;
@@ -39,30 +41,33 @@ h3 {
     padding-top: 30px;
     padding-bottom: 45px;
     margin-bottom: 110px;
+    margin-top: 40px;
     color: rgb(36, 37, 38);
-    &-ul {
+
+    &.blue {
+      background: rgb(27, 139, 249);
+      color: white;
+          }
+  }
+    .price ul {
     padding: 0;
     padding-inline-start: 0;
     list-style-type: none;
     font-size: 14pt;
     font-weight: normal;
   }
-    &.blue {
-      background: rgb(27, 139, 249);
-      color: white;
-          }
-    &-p {
+    .price p {
       font-size: 12pt;
       font-weight: normal;
-    }
-      }
+  }
     #amount {
       font-size: 48pt;
       font-weight: bold;
     }
-  .sub {
+  #sub {
     font-size: 16pt;
     color: rgb(188, 198, 208);
     font-weight: lighter;
+    padding-bottom: 40px;
   }
 }
