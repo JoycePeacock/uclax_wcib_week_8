@@ -3,7 +3,9 @@ body {
   background: #0cb3f8;
   /* Menu bar */
   /*top container*/
-  /*pricing container*/ }
+  /*end top container*/
+  /*pricing container*/
+  /*pricing container end*/ }
   body .navbar {
     color: white;
     font-weight: 700;
@@ -16,6 +18,14 @@ body {
     font-size: 12pt;
     color: white;
     text-transform: uppercase; }
+  body a {
+    text-decoration: none; }
+  body a:hover .nav-link {
+    text-decoration: underline; }
+  body h1 {
+    font-size: 70pt;
+    font-weight: bold;
+    color: white; }
   body .row-price {
     background: #222222;
     color: white; }

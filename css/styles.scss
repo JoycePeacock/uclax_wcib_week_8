@@ -16,9 +16,22 @@ body {
     font-size: 12pt;
     color: white;
     text-transform: uppercase;
-}
-/*top container*/
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover .nav-link {
+    text-decoration: underline;
+  }
 
+/*top container*/
+h1 {
+  font-size: 70pt;
+  font-weight: bold;
+  color: white;
+}
+
+/*end top container*/
 /*pricing container*/
   .row-price {
     background: rgb(34, 34, 34);
@@ -70,4 +83,5 @@ h3 {
     font-weight: lighter;
     padding-bottom: 40px;
   }
+/*pricing container end*/
 }
