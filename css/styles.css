@@ -1,11 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: #0cb3f8;
-  /* Menu bar */
-  /*top container*/
-  /*end top container*/
-  /*pricing container*/
-  /*pricing container end*/ }
+  /* Menu bar */ }
   body .navbar {
     color: white;
     font-weight: 700;
@@ -17,52 +13,80 @@ body {
   body .nav-link {
     font-size: 12pt;
     color: white;
-    text-transform: uppercase; }
-  body a {
+    text-transform: uppercase;
     text-decoration: none; }
-  body a:hover .nav-link {
-    text-decoration: underline; }
-  body h1 {
-    font-size: 70pt;
-    font-weight: bold;
+  body .nav-link:hover {
+    border-bottom: 3px solid white; }
+
+/*top container*/
+h1 {
+  font-size: 70pt;
+  font-weight: bold;
+  color: white;
+  margin-top: 140px; }
+
+.hero-word {
+  font-size: 21pt;
+  color: white;
+  margin-bottom: 100px; }
+
+.learn {
+  font-size: 10pt;
+  color: white;
+  padding: 2px;
+  margin-left: 35px; }
+
+.learn:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white; }
+
+/*end top container*/
+/*pricing container*/
+.row-price {
+  background: #222222;
+  color: white; }
+
+h2 {
+  font-size: 44pt;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 35px; }
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.price {
+  background: white;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  margin-bottom: 110px;
+  margin-top: 40px;
+  color: #242526; }
+  .price.blue {
+    background: #1b8bf9;
     color: white; }
-  body .row-price {
-    background: #222222;
-    color: white; }
-  body h2 {
-    font-size: 44pt;
-    font-weight: bold;
-    padding-top: 50px;
-    padding-bottom: 35px; }
-  body h3 {
-    font-size: 12pt;
-    font-weight: bold;
-    text-transform: uppercase; }
-  body .price {
-    background: white;
-    border-radius: 5px;
-    padding-top: 30px;
-    padding-bottom: 45px;
-    margin-bottom: 110px;
-    margin-top: 40px;
-    color: #242526; }
-    body .price.blue {
-      background: #1b8bf9;
-      color: white; }
-  body .price ul {
-    padding: 0;
-    padding-inline-start: 0;
-    list-style-type: none;
-    font-size: 14pt;
-    font-weight: normal; }
-  body .price p {
-    font-size: 12pt;
-    font-weight: normal; }
-  body #amount {
-    font-size: 48pt;
-    font-weight: bold; }
-  body #sub {
-    font-size: 16pt;
-    color: #bcc6d0;
-    font-weight: lighter;
-    padding-bottom: 40px; }
+
+.price ul {
+  padding: 0;
+  padding-inline-start: 0;
+  list-style-type: none;
+  font-size: 14pt;
+  font-weight: normal; }
+
+.price p {
+  font-size: 12pt;
+  font-weight: normal; }
+
+#amount {
+  font-size: 48pt;
+  font-weight: bold; }
+
+#sub {
+  font-size: 16pt;
+  color: #bcc6d0;
+  font-weight: lighter;
+  padding-bottom: 40px; }
