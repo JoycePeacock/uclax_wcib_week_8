@@ -43,8 +43,8 @@
           </li>
         </ul>
     </nav>
-<!--initial row-->
 
+<!--initial row-->
 <div class="container">
   <div class="row">
     <div class="col-8">
@@ -53,18 +53,18 @@
       <button class="download"><a class="justify-content-center" href="#" title="download Awesome App"><img class="apple" src="images/apple_white.png" alt="Apple download">Download</a></button>
       <a class="learn" href="#">Learn more</a>
     </div>
-    <div class="col-4"><img src="images/phone_tilted.png" alt="Image of our phone app">
+    <div class="col-4 phone-app"><img src="images/phone_tilted.png" alt="Image of our phone app">
     </div>
 </div>
 </div>
-<div class="row white-bar">
+  <div class="row">
     <div class="col-12 d-flex-justify-content-start align-items-center bar">
-      <button class="new justify-content-end">New</button>
+      <button class="new">New</button>
       <p id="newp">Get new revolution UI kit for your startup</p>
     </div>
-</div>
-<!--content pieces-->
+  </div>
 
+<!--content pieces-->
 <div class="row main align-items-center justify-content-center">
   <div class="col-12">
     <h2 class="text-center" id="firsth2">The New Big Thing</h2>
@@ -146,7 +146,7 @@
     <p class="text-center subscribe-sub">The purpose of a good education is to show you that there are three <br> sides to a two-sided story.</p>
     <div class="d-flex row flex-row justify-content-center">
       <div class=col-4></div>
-      <div class="col-4 justify-content-center">
+      <div class="col-4 justify-content-center m-0">
         <input type="email" class="entrybox justify-content-start" placeholder="Your email"></input>
         <button class="send">Send</button>
       </div>
@@ -162,16 +162,26 @@
       <img src="images/circle_logo_black.png">
     </div>
 
-    <div class="col-8 d-flex justify-content-center">
-      <ul class="footer-links">
-        <li><a href="#!">About</a></li>
-        <li><a href="#!">Tour</a></li>
-        <li><a href="#!">Pricing</a></li>
-        <li><a href="#!">Blog</a></li>
-        <li><a href="#!">Contact</a></li>
+    <nav class="nav-item col-8 d-flex justify-content-around">
+      <ul class="d-flex justify-content-around footer-links">
+        <li class="nav-item">
+          <a class="nav-link footie" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footie" href="#">Tour</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footie" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footie" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footie" href="#">Contact</a>
+        </li>
       </ul>
-    </div>
-    <div class="col-2 d-flex justify-content-center socials">
+    </nav>
+    <div class="col-2 justify-content-end">
       <img src="images/twitter.png" alt="Twitter">
       <img src="images/facebook.png" alt="Facebook">
       <img src="images/google.png" alt="Google Plus">
@@ -180,8 +190,15 @@
 
   <hr>
 
-  <div class="row2">
-    things at bottom
+  <div class="row justify-content-around about-us">
+    <div class="col-3 justify-content-start">
+      <p>We are an innovative web design and marketing company that specializes in web development, software development and digital marketing.</p>
+    </div>
+    <div class="col-6 justify-content-center">
+    </div>
+    <div class="col-3 justify-content-end">
+      <p>© Awesome app company</p>
+    </div>
   </div>
 
 </footer>

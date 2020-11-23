@@ -94,6 +94,7 @@ h1 {
   color: rgb(41, 37, 52);
   font-size: 13pt;
   display: inline-flex;
+  vertical-align: middle;
   background: white;
   width: 100%;
   }
@@ -101,6 +102,7 @@ h1 {
     width: 60px;
     height: 20px;
     background: rgb(0, 129, 255);
+    box-shadow: 12px 12px 6px 6px rgba(129, 255, 253, .2);
     border: none;
     border-radius: 20px;
     color: white;
@@ -245,9 +247,27 @@ h2 {
 /*footer*/
 footer {
   background: white;
-  color: rgb(36, 37, 38);}
+  color: rgb(36, 37, 38);
+  padding-top: 50px;
+  padding-left: 93px;
+  padding-right: 93px;
 }
 .footer-links {
-  text-decoration: none;
-  
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: rgb(36, 37, 38);
+}
+.footie {
+    text-decoration: none;
+    color: rgb(36, 37, 38);
+    font-size: 11pt;
+    font-weight: bold;
+    padding-bottom: 45px;
+  }
+.about-us {
+  font-size: 11pt;
+  font-weight: lighter;
+    padding-top: 40px;
+}
 }
