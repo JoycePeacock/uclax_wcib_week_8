@@ -1,7 +1,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: #0cb3f8;
-  /* Menu bar */ }
+  /* Menu bar */
+  /*top container*/
+  /*end top container*/
+  /*content beginning*/
+  /*pricing container*/
+  /*subscribe*/ }
   body .navbar {
     color: white;
     font-weight: 700;
@@ -17,140 +22,176 @@ body {
     text-decoration: none; }
   body .nav-link:hover {
     border-bottom: 3px solid white; }
-  body a {
-    text-decoration: none; }
-
-/*top container*/
-h1 {
-  font-size: 70pt;
-  font-weight: bold;
-  color: white;
-  margin-top: 140px; }
-
-.hero-word {
-  font-size: 21pt;
-  color: white;
-  margin-bottom: 100px; }
-
-.learn {
-  font-size: 10pt;
-  color: white;
-  padding: 2px;
-  margin-left: 35px; }
-
-.learn:hover {
-  color: white;
-  text-decoration: none;
-  border-bottom: 3px solid white; }
-
-.download {
-  height: 42px;
-  width: 144px;
-  border: 1px solid white;
-  border-radius: 42px;
-  background: none;
-  display: inline-block;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 10pt;
-  font-weight: 600;
-  letter-spacing: 0.04em; }
-
-.download, a {
-  text-decoration: none;
-  color: white; }
-
-.apple {
-  padding-right: 5px;
-  margin-top: -5px; }
-
-.btn-hover {
-  height: 42px;
-  width: 144px;
-  border: 1px solid white;
-  border-radius: 42px;
-  background: white;
-  display: inline-block;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #242526;
-  font-size: 10pt;
-  font-weight: 600;
-  letter-spacing: 0.04em; }
-
-.white-bar {
-  color: #292534;
-  font-size: 13pt;
-  display: inline-flex;
-  background: white;
-  width: cover; }
-
-.new {
-  width: 60px;
-  height: 20px;
-  background: #0081ff;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  font-size: 9pt;
-  font-transform: uppercase;
-  margin-right: 30px; }
-
-/*end top container*/
-/*pricing container*/
-.row-price {
-  background: #222222;
-  color: white; }
-
-h2 {
-  font-size: 44pt;
-  font-weight: bold;
-  padding-top: 50px;
-  padding-bottom: 35px; }
-
-h3 {
-  font-size: 12pt;
-  font-weight: bold;
-  text-transform: uppercase; }
-
-.price {
-  background: white;
-  border-radius: 5px;
-  padding-top: 30px;
-  padding-bottom: 45px;
-  margin-bottom: 110px;
-  margin-top: 40px;
-  color: #242526; }
-  .price.blue {
-    background: #1b8bf9;
+  body h1 {
+    font-size: 70pt;
+    font-weight: bold;
+    color: white;
+    margin-top: 140px; }
+  body .hero-word {
+    font-size: 21pt;
+    color: white;
+    margin-bottom: 100px; }
+  body .learn {
+    font-size: 10pt;
+    color: white;
+    padding: 2px;
+    margin-left: 35px; }
+  body .learn:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white; }
+  body .download {
+    height: 42px;
+    width: 144px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.04em; }
+  body .download, body a {
+    text-decoration: none;
     color: white; }
-
-.price ul {
-  padding: 0;
-  padding-inline-start: 0;
-  list-style-type: none;
-  font-size: 14pt;
-  font-weight: normal; }
-
-.price p {
-  font-size: 12pt;
-  font-weight: normal; }
-
-.pricing {
-  background: none;
-  border: none; }
-
-#amount {
-  font-size: 48pt;
-  font-weight: bold; }
-
-#sub {
-  font-size: 16pt;
-  color: #bcc6d0;
-  font-weight: lighter;
-  padding-bottom: 40px; }
+  body .apple {
+    padding-right: 5px;
+    margin-top: -5px; }
+  body .btn-hover {
+    height: 42px;
+    width: 144px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: white;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #242526;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.04em; }
+  body .bar {
+    color: #292534;
+    font-size: 13pt;
+    display: inline-flex;
+    background: white;
+    width: 100%; }
+  body .new {
+    width: 60px;
+    height: 20px;
+    background: #0081ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 9pt;
+    font-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 96px; }
+  body #newp {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  body .main {
+    background: #f4f5f5;
+    color: #242526; }
+  body #firsth2 {
+    color: #241b1c;
+    margin-top: 70px; }
+  body .content-sub {
+    color: #747474;
+    font-size: 15.99pt;
+    font-weight: lighter;
+    margin-bottom: 78px; }
+  body #mainh3 {
+    color: #241b1c;
+    font-size: 13pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px; }
+  body #mainp {
+    color: #747474;
+    font-size: 13pt;
+    text-align: center;
+    margin-bottom: 75px; }
+  body .iphone {
+    margin-bottom: 100px; }
+  body .row-price {
+    background: #222222;
+    color: white; }
+  body h2 {
+    font-size: 44pt;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 35px; }
+  body #prices {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase; }
+  body .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-bottom: 110px;
+    margin-top: 40px;
+    color: #242526; }
+    body .price.blue {
+      background: #1b8bf9;
+      color: white; }
+  body .price ul {
+    padding: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: normal; }
+  body .price p {
+    font-size: 12pt;
+    font-weight: normal; }
+  body .pricing {
+    background: none;
+    border: none; }
+  body #amount {
+    font-size: 48pt;
+    font-weight: bold; }
+  body #sub {
+    font-size: 16pt;
+    color: #bcc6d0;
+    font-weight: lighter;
+    padding-bottom: 40px; }
+  body .subscribe {
+    background-image: url(../images/cliffs.png);
+    background-size: cover;
+    color: white; }
+  body #subscribeh2 {
+    color: white;
+    margin-top: 67px; }
+  body .subscribe-sub {
+    font-size: 14pt;
+    font-weight: lighter;
+    margin-top: 22px;
+    margin-bottom: 53px; }
+  body .entrybox {
+    width: 321px;
+    height: 43px;
+    border-radius: 5px;
+    opacity: .25;
+    border: none;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 96px; }
+  body .send {
+    width: 144px;
+    height: 42px;
+    background: white;
+    border-radius: 5px;
+    color: #242525;
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 96px; }
