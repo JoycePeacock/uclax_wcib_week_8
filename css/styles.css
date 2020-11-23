@@ -6,7 +6,8 @@ body {
   /*end top container*/
   /*content beginning*/
   /*pricing container*/
-  /*subscribe*/ }
+  /*subscribe*/
+  /*footer*/ }
   body .navbar {
     color: white;
     font-weight: 700;
@@ -55,9 +56,9 @@ body {
     font-size: 10pt;
     font-weight: 600;
     letter-spacing: 0.04em; }
-  body .download, body a {
-    text-decoration: none;
-    color: white; }
+    body .download a {
+      text-decoration: none;
+      color: white; }
   body .apple {
     padding-right: 5px;
     margin-top: -5px; }
@@ -76,6 +77,9 @@ body {
     font-size: 10pt;
     font-weight: 600;
     letter-spacing: 0.04em; }
+    body .btn-hover a {
+      color: #242526;
+      text-decoration: none; }
   body .bar {
     color: #292534;
     font-size: 13pt;
@@ -195,3 +199,6 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 96px; }
+  body footer {
+    background: white;
+    color: #242526; }
