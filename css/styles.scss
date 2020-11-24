@@ -134,14 +134,14 @@ h1 {
   font-weight: lighter;
   margin-bottom: 78px;
 }
-#mainh3 {
+.mainh3 {
   color: rgb(36, 27, 28);
   font-size: 13pt;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
   }
-#mainp {
+.mainp {
   color: rgb(116, 116, 116);
   font-size: 13pt;
   text-align: center;
@@ -163,7 +163,7 @@ h2 {
   padding-top: 50px;
   padding-bottom: 35px;
 }
-#prices {
+.prices {
   font-size: 12pt;
   font-weight: bold;
   text-transform: uppercase;
@@ -197,7 +197,7 @@ h2 {
     background: none;
     border: none;
   }
-    #amount {
+    .amount {
       font-size: 48pt;
       font-weight: bold;
     }
